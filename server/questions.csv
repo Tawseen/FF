@@ -1,0 +1,101 @@
+Category,QuestionNumber,Question,Answer1,Score1,Answer2,Score2,Answer3,Score3,Answer4,Score4,Answer5,Score5,Answer6,Score6,Answer7,Score7,Answer8,Score8
+Cfood,CfoodQ1,Name a fruit kids often refuse to eat,Broccoli,30,Spinach,25,Brussels sprouts,15,Avocado,10,Cauliflower,7,Kale,6,Eggplant,5,Olives,2
+Cfood,CfoodQ2,Name a popular pizza topping,Pepperoni,40,Mushrooms,25,Onions,15,Sausage,10,Bell peppers,7,Olives,5,Extra cheese,3,Pineapple,2
+Cfood,CfoodQ3,Name a dessert everyone loves,Ice cream,40,Chocolate cake,30,Cookies,15,Pie,10,Brownies,8,Pudding,5,Jelly,3,Fruit salad,2
+Cfood,CfoodQ4,Name a common breakfast food,Pancakes,35,Eggs,30,Bacon,15,Cereal,10,Toast,7,Waffles,5,Oatmeal,3,Fruit,2
+Cfood,CfoodQ5,Name a spicy food,Chili,35,Jalapeños,30,Curry,15,Salsa,10,Hot wings,7,Kimchi,5,Wasabi,3,Spicy noodles,2
+Cfood,CfoodQ6,Name a drink served cold,Water,35,Iced tea,30,Lemonade,15,Soda,10,Beer,7,Smoothie,5,Juice,3,Iced coffee,2
+Cfood,CfoodQ7,Name a vegetable often in salads,Lettuce,40,Tomato,25,Cucumber,15,Carrot,10,Onion,7,Spinach,5,Peppers,3,Olives,2
+Cfood,CfoodQ8,Name a popular fast food restaurant,McDonald's,40,Burger King,30,KFC,15,Subway,10,Wendy's,7,Taco Bell,5,Pizza Hut,3,Domino's,2
+Cfood,CfoodQ9,Name a type of cheese,Cheddar,35,Mozzarella,30,Swiss,15,Parmesan,10,Brie,7,Feta,5,Blue cheese,3,Goat cheese,2
+Cfood,CfoodQ10,Name a food you eat with your hands,Burger,40,Taco,30,Pizza,15,Fried chicken,10,Sandwich,7,French fries,5,Doughnut,3,Nuggets,2
+Cgames,CgamesQ1,Name a classic board game,Monopoly,40,Clue,30,Scrabble,15,Checkers,10,Risk,7,Chess,5,Life,3,Connect Four,2
+Cgames,CgamesQ2,Name a popular video game,Minecraft,40,Fortnite,30,Candy Crush,15,Among Us,10,Call of Duty,7,Pokemon,5,Roblox,3,League of Legends,2
+Cgames,CgamesQ3,Name something you do in a game,Jump,35,Run,30,Shoot,15,Collect,10,Build,7,Explore,5,Trade,3,Solve puzzles,2
+Cgames,CgamesQ4,Name a type of card game,Poker,40,Bridge,30,Solitaire,15,Hearts,10,Go Fish,7,Blackjack,5,Rummy,3,Spades,2
+Cgames,CgamesQ5,Name a playground game,Tag,40,Hide and Seek,30,Jump Rope,15,Simon Says,10,Dodgeball,7,Four Square,5,Red Rover,3,Double Dutch,2
+Cgames,CgamesQ6,Name a gaming console,PlayStation,40,Xbox,30,Nintendo Switch,15,Wii,10,Sega,7,GameCube,5,NES,3,Atari,2
+Cgames,CgamesQ7,Name a game piece,Pawn,40,Card,30,Dice,15,Token,10,Checker,7,Chess piece,5,Coin,3,Board,2
+Cgames,CgamesQ8,Name a sport-based video game,FIFA,40,UFC,30,NBA 2K,15,WWE,10,MLB The Show,7,Tony Hawk,5,PGA Tour,3,NHL,2
+Cgames,CgamesQ9,Name a game controller button,X,40,Square,30,Triangle,15,Circle,10,Start,7,Select,5,L2/R2,3,L3/R3,2
+Cgames,CgamesQ10,Name a popular game genre,Action,35,Adventure,30,Puzzle,15,Strategy,10,RPG,7,Simulation,5,Sports,3,Shooter,2
+Creligion,CreligionQ1,Name a pillar of Islam,Shahada,40,Salat,30,Zakat,15,Sawm,10,Hajj,7,Tawhid,5,Jihad,3,Dua,2
+Creligion,CreligionQ2,Name a holy book,Quran,50,Hadith,20,Tafsir,10,Sunnah,10,Fiqh,5,Sharia,3,Ijma,1,Qiyas,1
+Creligion,CreligionQ3,Name an Islamic festival,Eid al-Fitr,50,Eid al-Adha,30,Mawlid,10,Lailat al-Qadr,5,Islamic New Year,3,Ascension Night,1,Day of Ashura,1,Milad,0
+Creligion,CreligionQ4,Name a prophet,Muhammad,50,Ibrahim,30,Musa,15,Isa,10,Nuh,7,Dawud,5,Sulaiman,3,Yusuf,2
+Creligion,CreligionQ5,Name a common Islamic greeting,Assalamu Alaikum,50,Wa Alaikum Salam,30,Marhaba,10,Alhamdulillah,5,Insha’Allah,3,SubhanAllah,2,Masha’Allah,1,Bismillah,1
+Creligion,CreligionQ6,Name a place of worship,Mosque,60,Masjid,20,Haram,10,Madrasa,5,Islamic center,3,Zawiya,1,Maqam,1,Mausoleum,0
+Creligion,CreligionQ7,Name a religious practice,Fasting,40,Prayer,30,Charity,15,Pilgrimage,10,Reciting Quran,5,Remembrance,3,Almsgiving,2,Reflection,1
+Creligion,CreligionQ8,Name a religious leader,Imam,50,Sheikh,30,Mufti,10,Qadi,5,Mollah,3,Ayatollah,2,Caliph,1,Sufi Master,1
+Creligion,CreligionQ9,Name a symbol of Islam,Crescent,40,Star,30,Calligraphy,15,Mosque Dome,10,Prayer Rug,7,Quran,5,Turban,3,Minaret,2
+Creligion,CreligionQ10,Name a food eaten during Ramadan,Dates,50,Soup,20,Biryani,15,Samosa,10,Fruits,5,Bread,3,Yogurt,2,Milk,1
+Cfamily,CfamilyQ1,Name a chore kids hate to do,Take out trash,30,Clean room,25,Wash dishes,15,Vacuum,10,Laundry,7,Mow lawn,5,Dust,4,Clean bathroom,4
+Cfamily,CfamilyQ2,Name a family event everyone looks forward to,Birthday party,35,Holiday dinner,28,Family vacation,15,Reunion,10,Graduation,5,Wedding,4,Picnic,2,Movie night,1
+Cfamily,CfamilyQ3,Name something a parent often says to their kids,Clean your room,30,Do your homework,25,Be careful,15,Say please,10,Go to bed,7,Eat your veggies,6,Listen,4,Brush your teeth,3
+Cfamily,CfamilyQ4,Name a pet a family might have,Dog,40,Cat,30,Fish,10,Hamster,8,Bird,5,Turtle,3,Rabbit,2,Guinea pig,2
+Cfamily,CfamilyQ5,Name a family activity done on weekends,Watching movies,35,Going to park,25,Playing games,15,Cooking together,10,Shopping,7,Hiking,5,Visiting relatives,3,Cleaning,2
+Cfamily,CfamilyQ6,Name a food commonly cooked for a family dinner,Spaghetti,33,Roast chicken,25,Pizza,15,Tacos,10,Meatloaf,7,Soup,5,Casserole,3,Stir-fry,2
+Cfamily,CfamilyQ7,Name something kids fight about with siblings,Toys,35,TV remote,25,Food,15,Bathroom,10,Clothes,7,Privacy,5,Video games,2,Bed space,1
+Cfamily,CfamilyQ8,Name a family tradition,Holiday decorating,30,Family dinners,28,Gift exchange,15,Storytelling,10,Game night,7,Baking cookies,5,Camping,3,Watching fireworks,2
+Cfamily,CfamilyQ9,Name a job a dad usually does around the house,Fixing things,35,Mowing lawn,25,Taking out trash,15,Washing car,10,Grilling,7,Helping kids,5,Cleaning gutters,2,Painting,1
+Cfamily,CfamilyQ10,Name something you find in a family photo,Smiling faces,40,Matching outfits,25,Pets,15,Holiday decorations,10,Relatives,7,Funny poses,5,Balloons,2,Food,1
+Cschool,CschoolQ1,Name a subject students often struggle with,Math,40,Science,30,English,20,History,15,Foreign Language,10,Physics,8,Chemistry,5,Geography,4
+Cschool,CschoolQ2,Name something you bring to class,Notebook,40,Pen,30,Backpack,20,Textbook,15,Laptop,10,Pencil case,8,Water bottle,5,Lunchbox,2
+Cschool,CschoolQ3,Name a popular school lunch,French fries,35,Pizza,30,Sandwich,20,Chicken nuggets,15,Salad,10,Fruit,8,Yogurt,5,Mac and cheese,3
+Cschool,CschoolQ4,Name a place in a school,Library,40,Cafeteria,30,Gym,20,Classroom,15,Playground,10,Office,8,Lab,5,Hallway,2
+Cschool,CschoolQ5,Name a common school rule,No cheating,35,Be on time,30,No phones,20,No talking,15,Do homework,10,Wear uniform,8,Respect teachers,5,No bullying,4
+Cschool,CschoolQ6,Name a school sport,Soccer,40,Basketball,30,Track,20,Volleyball,15,Baseball,10,Swimming,8,Gymnastics,5,Tennis,3
+Cschool,CschoolQ7,Name a school supply,Pencil,40,Notebook,30,Eraser,20,Backpack,15,Calculator,10,Glue,8,Markers,5,Scissors,3
+Cschool,CschoolQ8,Name something teachers do,Grade papers,40,Teach lessons,30,Make quizzes,20,Help students,15,Plan activities,10,Take attendance,8,Organize field trips,5,Meet parents,3
+Cschool,CschoolQ9,Name a type of test,Math test,40,Spelling test,30,Science test,20,History test,15,Quiz,10,Final exam,8,Pop quiz,5,Oral exam,3
+Cschool,CschoolQ10,Name something students do after school,Homework,40,Play sports,30,Watch TV,20,Read,15,Chores,10,Hang out,8,Practice music,5,Go to tutoring,3
+Cpop,CpopQ1,Name a celebrity known for music,Taylor Swift,40,Beyonce,30,Drake,20,Ed Sheeran,15,Billie Eilish,10,Ariana Grande,8,Bruno Mars,5,Justin Bieber,3
+Cpop,CpopQ2,Name a TV show families watch,Breaking Bad,35,Stranger Things,30,The Simpsons,20,Friends,15,The Office,10,Game of Thrones,8,Modern Family,5,The Crown,3
+Cpop,CpopQ3,Name a popular movie genre,Action,40,Comedy,30,Drama,20,Horror,15,Romance,10,Science Fiction,8,Animation,5,Documentary,3
+Cpop,CpopQ4,Name a social media platform,Instagram,40,TikTok,30,Facebook,20,Twitter,15,Snapchat,10,LinkedIn,8,YouTube,5,Pinterest,3
+Cpop,CpopQ5,Name a popular music genre,Pop,40,Hip Hop,30,Rock,20,Country,15,Jazz,10,Electronic,8,R&B,5,Reggae,3
+Cpop,CpopQ6,Name a famous actor,Leonardo DiCaprio,40,Denzel Washington,30,Meryl Streep,20,Jennifer Lawrence,15,Brad Pitt,10,Scarlett Johansson,8,Tom Hanks,5,Natalie Portman,3
+Cpop,CpopQ7,Name a popular video streaming service,Netflix,50,Disney+,30,Amazon Prime,20,Hulu,15,YouTube,10,Apple TV+,8,Peacock,5,HBO Max,3
+Cpop,CpopQ8,Name a fashion trend,Denim jackets,35,Sneakers,30,Beanies,20,Graphic tees,15,Chunky boots,10,Bucket hats,8,High-waisted jeans,5,Leather jackets,3
+Cpop,CpopQ9,Name a famous superhero,Spider-Man,40,Batman,30,Superman,20,Wonder Woman,15,Iron Man,10,Black Panther,8,Captain Marvel,5,Thor,3
+Cpop,CpopQ10,Name a popular holiday destination,Hawaii,40,Paris,30,New York,20,Bali,15,Tokyo,10,Maldives,8,Rome,5,Sydney,3
+Cgeography,CgeographyQ1,Name a continent,Africa,40,Asia,30,Europe,20,North America,15,South America,10,Antarctica,8,Australia,5,Arctic,3
+Cgeography,CgeographyQ2,Name a country known for food,Italy,40,Mexico,30,France,20,China,15,India,10,Japan,8,Thailand,5,Greece,3
+Cgeography,CgeographyQ3,Name a famous river,Nile,40,Amazon,30,Mississippi,20,Yangtze,15,Thames,10,Ganges,8,Danube,5,Rhine,3
+Cgeography,CgeographyQ4,Name a capital city,Washington DC,40,London,30,Paris,20,Tokyo,15,Ottawa,10,Berlin,8,Moscow,5,Canberra,3
+Cgeography,CgeographyQ5,Name a mountain range,Himalayas,40,Rockies,30,Alps,20,Appalachians,15,Andes,10,Ural,8,Pyrenees,5,Atlas,3
+Cgeography,CgeographyQ6,Name a desert,Sahara,40,Gobi,30,Kalahari,20,Mojave,15,Thar,10,Arabian,8,Patagonian,5,Great Victoria,3
+Cgeography,CgeographyQ7,Name an ocean,Pacific,40,Atlantic,30,Indian,20,Arctic,15,Southern,10,Coral,8,Caribbean,5,Antarctic,3
+Cgeography,CgeographyQ8,Name a famous landmark,Eiffel Tower,40,Great Wall of China,30,Statue of Liberty,20,Pyramids,15,Big Ben,10,Colosseum,8,Machu Picchu,5,Taj Mahal,3
+Cgeography,CgeographyQ9,Name a type of map,Political,35,Physical,30,Topographic,20,Climate,15,Road,10,Political,8,Thematic,5,Nautical,3
+Cgeography,CgeographyQ10,Name a country in Africa,Nigeria,40,Egypt,30,South Africa,20,Kenya,15,Morocco,10,Ghana,8,Algeria,5,Tanzania,3
+Csports,CsportsQ1,Name a popular sport,Football,40,Basketball,30,Baseball,20,Soccer,15,Tennis,10,Cricket,8,Hockey,5,Golf,3
+Csports,CsportsQ2,Name a famous athlete,Michael Jordan,40,Serena Williams,30,Lionel Messi,20,Usain Bolt,15,Tiger Woods,10,Roger Federer,8,Muhammad Ali,5,Cristiano Ronaldo,3
+Csports,CsportsQ3,Name a sport played with a ball,Soccer,40,Basketball,30,Baseball,20,Tennis,15,Volleyball,10,Golf,8,Rugby,5,Cricket,3
+Csports,CsportsQ4,Name a piece of sports equipment,Ball,40,Gloves,30,Racket,20,Helmet,15,Stick,10,Cleats,8,Net,5,Pads,3
+Csports,CsportsQ5,Name a position in football,Quarterback,40,Receiver,30,Linebacker,20,Running back,15,Defensive end,10,Cornerback,8,Kicker,5,Punter,3
+Csports,CsportsQ6,Name a major sports event,Olympics,50,Super Bowl,30,FIFA World Cup,20,Wimbledon,15,Tour de France,10,Masters,8,World Series,5,UEFA Champions League,3
+Csports,CsportsQ7,Name a sport that uses a net,Tennis,40,Volleyball,30,Badminton,20,Table Tennis,15,Netball,10,Pickleball,8,Squash,5,Beach Volleyball,3
+Csports,CsportsQ8,Name a term used in baseball,Home run,40,Strikeout,30,Bunt,20,Walk,15,Triple,10,Double,8,Out,5,Steal,3
+Csports,CsportsQ9,Name a type of race,Marathon,40,Sprint,30,Relay,20,Hurdles,15,Cross country,10,Triathlon,8,Drag race,5,Obstacle race,3
+Csports,CsportsQ10,Name a famous sports stadium,Old Trafford,40,Wembley,30,Maracanã,20,Staples Center,15,Fenway Park,10,Anfield,8,Camp Nou,5,Melbourne Cricket Ground,3
+Clifestyle,ClifestyleQ1,Name a common hobby,Reading,40,Gardening,30,Cooking,20,Traveling,15,Photography,10,Knitting,8,Yoga,5,Dancing,3
+Clifestyle,ClifestyleQ2,Name a type of pet,Dog,40,Cat,30,Fish,20,Bird,15,Hamster,10,Rabbit,8,Turtle,5,Guinea pig,3
+Clifestyle,ClifestyleQ3,Name a drink people enjoy,Coffee,40,Tea,30,Soda,20,Juice,15,Water,10,Smoothie,8,Beer,5,Wine,3
+Clifestyle,ClifestyleQ4,Name a mode of transportation,Car,40,Bicycle,30,Bus,20,Train,15,Plane,10,Boat,8,Motorcycle,5,Scooter,3
+Clifestyle,ClifestyleQ5,Name a type of exercise,Running,40,Swimming,30,Cycling,20,Yoga,15,Weightlifting,10,Pilates,8,Hiking,5,Dancing,3
+Clifestyle,ClifestyleQ6,Name a room in a house,Kitchen,40,Living room,30,Bedroom,20,Bathroom,15,Office,10,Garage,8,Basement,5,Attic,3
+Clifestyle,ClifestyleQ7,Name a piece of clothing,T-shirt,40,Jeans,30,Jacket,20,Dress,15,Shoes,10,Hat,8,Scarf,5,Gloves,3
+Clifestyle,ClifestyleQ8,Name a type of music,Jazz,40,Rock,30,Pop,20,Classical,15,Hip-hop,10,Country,8,Blues,5,Electronic,3
+Clifestyle,ClifestyleQ9,Name a way to relax,Reading,40,Watching TV,30,Meditation,20,Listening to music,15,Walking,10,Napping,8,Bathing,5,Crafting,3
+Clifestyle,ClifestyleQ10,Name a healthy food,Fruit,40,Vegetables,30,Nuts,20,Whole grains,15,Lean meat,10,Legumes,8,Yogurt,5,Fish,3
+Cinternet,CinternetQ1,Name a social media app,Facebook,40,Instagram,30,TikTok,20,Twitter,15,Snapchat,10,LinkedIn,8,Pinterest,5,Reddit,3
+Cinternet,CinternetQ2,Name a common internet activity,Watching videos,40,Social networking,30,Shopping,20,Playing games,15,Reading news,10,Online banking,8,Chatting,5,Research,3
+Cinternet,CinternetQ3,Name a popular search engine,Google,60,Bing,20,DuckDuckGo,10,Yahoo,5,Baidu,3,Yandex,1,AOL,1,Ask,0
+Cinternet,CinternetQ4,Name a type of email spam,Phishing,40,Ads,30,Scams,20,Fake offers,15,Malware,10,Chain letters,8,Fake surveys,5,Pop-ups,3
+Cinternet,CinternetQ5,Name a popular streaming service,Netflix,50,YouTube,30,Amazon Prime,20,Hulu,15,Disney+,10,Twitch,8,Spotify,5,Apple TV+,3
+Cinternet,CinternetQ6,Name a common internet slang,LOL,40,BRB,30,OMG,20,TTYL,15,ROFL,10,AFK,8,IMO,5,IDK,3
+Cinternet,CinternetQ7,Name a device to access internet,Smartphone,40,Computer,30,Tablet,20,Smart TV,15,Laptop,10,Gaming console,8,Router,5,Smartwatch,3
+Cinternet,CinternetQ8,Name a popular online game,Fortnite,40,Minecraft,30,Among Us,20,Call of Duty,15,Roblox,10,League of Legends,8,World of Warcraft,5,Candy Crush,3
+Cinternet,CinternetQ9,Name a security measure,Password,40,Two-factor auth,30,Firewall,20,Encryption,15,Antivirus,10,Backup,8,VPN,5,Secure Wi-Fi,3
+Cinternet,CinternetQ10,Name a famous website,YouTube,50,Reddit,30,Wikipedia,20,Facebook,15,Twitter,10,Amazon,8,Instagram,5,Google,3

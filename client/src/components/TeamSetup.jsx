@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './TeamSetup.css';
+
 
 export default function TeamSetup({ onStart }) {
   const [teamA, setTeamA] = useState('');
@@ -6,24 +8,24 @@ export default function TeamSetup({ onStart }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (teamA && teamB) {
-      onStart([teamA, teamB]);
+    if (teamA.trim() && teamB.trim()) {
+      onStart([teamA.trim(), teamB.trim()]);
     }
   };
 
   return (
-    <div className="setup-screen">
-      <h2>Enter Team Names</h2>
-      <form onSubmit={handleSubmit}>
+    <div className="team-setup">
+      <h1>Enter Team Names</h1>
+      <form onSubmit={handleSubmit} className="team-form">
         <input
           type="text"
-          placeholder="Team A"
+          placeholder="Team A Name"
           value={teamA}
           onChange={(e) => setTeamA(e.target.value)}
         />
         <input
           type="text"
-          placeholder="Team B"
+          placeholder="Team B Name"
           value={teamB}
           onChange={(e) => setTeamB(e.target.value)}
         />
