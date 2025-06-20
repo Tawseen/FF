@@ -1,161 +1,96 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
-import './ControlPanel.css';
 
 const socket = io('http://localhost:3001');
 
 export default function ControlPanel() {
-  const [gameState, setGameState] = useState({
-    currentQuestion: null,
-    teamScores: { teamA: 0, teamB: 0 },
-    roundScore: 0,
-    strikes: 0,
-    gamePhase: 'setup'
-  });
-
+  const [teams, setTeams] = useState(['Team A', 'Team B']);
+  const [gameState, setGameState] = useState(null);
   const [gameWindow, setGameWindow] = useState(null);
-  const [popupBlocked, setPopupBlocked] = useState(false);
 
   useEffect(() => {
-    socket.on('gameState', (newGameState) => {
-      setGameState(newGameState);
-    });
+    socket.on('gameState', setGameState);
+    return () => socket.off('gameState');
+  }, []);
 
-    socket.on('closeGameWindow', () => {
-      if (gameWindow && !gameWindow.closed) {
-        gameWindow.close();
-        setGameWindow(null);
-      }
-    });
-
-    return () => {
-      socket.off('gameState');
-      socket.off('closeGameWindow');
-    };
-  }, [gameWindow]);
-
-  const openGameScreen = () => {
-    const win = window.open('/game', '_blank', 'width=1024,height=768');
-    if (!win || win.closed || typeof win.closed === 'undefined') {
-      setPopupBlocked(true);
-    } else {
-      setGameWindow(win);
-      setPopupBlocked(false);
-    }
-  };
-
-  const closeGameScreen = () => {
+  function openGameWindow() {
     if (gameWindow && !gameWindow.closed) {
-      gameWindow.close();
-      socket.emit('requestCloseGameWindow');
-      setGameWindow(null);
+      gameWindow.focus();
+      return;
     }
-  };
+    const win = window.open('/game', 'gameWindow', 'width=1280,height=720');
+    setGameWindow(win);
+  }
 
-  const revealAnswer = (index) => {
+  function startGame() {
+    socket.emit('setupTeams', teams);
+    socket.emit('beginLoading');
+    setTimeout(() => {
+      socket.emit('showCategorySelect');
+    }, 5000); // Show loading for 5 seconds before category select
+  }
+
+  function revealAnswer(index) {
     socket.emit('revealAnswer', index);
-  };
+  }
 
-  const addStrike = () => {
+  function addStrike() {
     socket.emit('addStrike');
-  };
+  }
 
-  const awardPoints = (team) => {
+  function awardPoints(team) {
     socket.emit('awardPoints', team);
-  };
+  }
 
-  const nextQuestion = () => {
+  function nextQuestion() {
     socket.emit('nextQuestion');
-  };
+  }
 
-  const resetGame = () => {
+  function resetGame() {
     socket.emit('resetGame');
-  };
-
-  if (gameState.gamePhase !== 'playing') {
-    return (
-      <div className="control-panel">
-        <h2>Control Panel</h2>
-        <p>Waiting for game to start...</p>
-        <button onClick={resetGame} className="reset-btn">
-          Reset Game
-        </button>
-        <button onClick={openGameScreen} className="popup-btn">
-          Open Game Screen
-        </button>
-        {popupBlocked && <p className="error-text">⚠️ Popup blocked! Please allow popups and try again.</p>}
-      </div>
-    );
   }
 
   return (
-    <div className="control-panel">
-      <div className="control-header">
-        <button onClick={openGameScreen} className="popup-btn">
-          Open Game Screen
-        </button>
-        {gameWindow && !gameWindow.closed && (
-          <button onClick={closeGameScreen} className="close-popup-btn">
-            Close Game Screen
-          </button>
-        )}
+    <div style={{ padding: 20 }}>
+      <h2>Control Panel</h2>
+      <div>
+        <label>Team A: </label>
+        <input
+          type="text"
+          value={teams[0]}
+          onChange={e => setTeams([e.target.value, teams[1]])}
+        />
       </div>
+      <div>
+        <label>Team B: </label>
+        <input
+          type="text"
+          value={teams[1]}
+          onChange={e => setTeams([teams[0], e.target.value])}
+        />
+      </div>
+      <button onClick={startGame}>Begin Game</button>
+      <button onClick={openGameWindow}>Open Game Window</button>
+      <button onClick={resetGame}>Reset Game</button>
 
-      <div className="control-section">
-        <h3>Current Question</h3>
-        {gameState.currentQuestion && (
-          <div className="question-info">
-            <p><strong>{gameState.currentQuestion.question}</strong></p>
-            <div className="answer-controls">
-              {gameState.currentQuestion.answers.map((answer, index) => (
-                <button
-                  key={index}
-                  onClick={() => revealAnswer(index)}
-                  disabled={answer.revealed}
-                  className={`answer-btn ${answer.revealed ? 'revealed' : ''}`}
-                >
-                  {index + 1}. {answer.text} ({answer.points})
-                </button>
-              ))}
-            </div>
+      {gameState && gameState.gamePhase === 'playing' && (
+        <>
+          <h3>Current Question Controls</h3>
+          <div>
+            {gameState.currentQuestion.answers.map((_, i) => (
+              <button key={i} onClick={() => revealAnswer(i)}>
+                Reveal Answer {i + 1}
+              </button>
+            ))}
           </div>
-        )}
-      </div>
-
-      <div className="control-section">
-        <h3>Game Controls</h3>
-        <div className="game-controls">
-          <button onClick={addStrike} className="strike-btn">
-            Add Strike ({gameState.strikes}/3)
-          </button>
-
-          <div className="score-controls">
-            <h4>Award Points (Round Score: {gameState.roundScore})</h4>
-            <button onClick={() => awardPoints('teamA')} className="award-btn team-a">
-              Award to Team A
-            </button>
-            <button onClick={() => awardPoints('teamB')} className="award-btn team-b">
-              Award to Team B
-            </button>
+          <div>
+            <button onClick={addStrike}>Add Strike</button>
+            <button onClick={() => awardPoints('teamA')}>Award Points to Team A</button>
+            <button onClick={() => awardPoints('teamB')}>Award Points to Team B</button>
+            <button onClick={nextQuestion}>Next Question</button>
           </div>
-
-          <button onClick={nextQuestion} className="next-btn">
-            Next Question
-          </button>
-
-          <button onClick={resetGame} className="reset-btn">
-            Reset Game
-          </button>
-        </div>
-      </div>
-
-      <div className="control-section">
-        <h3>Current Scores</h3>
-        <div className="score-display">
-          <div>Team A: {gameState.teamScores.teamA}</div>
-          <div>Team B: {gameState.teamScores.teamB}</div>
-        </div>
-      </div>
+        </>
+      )}
     </div>
   );
 }
